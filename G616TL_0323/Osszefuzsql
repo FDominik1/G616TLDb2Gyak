@@ -1,0 +1,9 @@
+SET SERVEROUTPUT ON
+DECLARE
+    vezetek varchar(25);
+    kereszt varchar(25);
+BEGIN
+    vezetek:='Földesi';
+    kereszt:=' Dominik';
+    dbms_output.put_line(vezetek || kereszt);
+END;
